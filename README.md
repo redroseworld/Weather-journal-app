@@ -66,3 +66,9 @@ https://javascript.info/promise-chaining
 5- W3 school:
 
 https://www.w3schools.com/howto/howto_js_alert.asp  
+
+6- OpenWeatherMap.com:
+
+https://openweathermap.org/current
+
+https://openweathermap.org/weather-conditions
