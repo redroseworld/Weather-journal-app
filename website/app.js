@@ -8,7 +8,7 @@ function weatherApp() {
         // define project URL(to the front-end developer to test)
         projectURL: 'http://127.0.0.1:4007',
         //define my personal APIkey for OpenWeatherMap.com
-        // apiKey    : '&appid=20f86fe6296fa84fb3c6e00349c54653&units=metric',
+        apiKey    : '&appid=20f86fe6296fa84fb3c6e00349c54653&units=metric',
         //define the zipcode url and the city name url to fetch 
         zipURL: 'http://api.openweathermap.org/data/2.5/weather?zip=',
         cityURL: 'http://api.openweathermap.org/data/2.5/weather?q='
