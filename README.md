@@ -46,17 +46,22 @@ I add some addition in the requirement such as:
 
 ## Resources
 1- udacity classroom:
+
 https://classroom.udacity.com/nanodegrees/nd0011-fwd-t2/parts/cd0429 
 
 2- MDN:
+
 https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch 
 https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction 
 
 3-Expressjs:
+
 https://expressjs.com/en/guide/routing.html
 
 4-javascript.info:
+
 https://javascript.info/promise-chaining 
  
 5- W3 school:
+
 https://www.w3schools.com/howto/howto_js_alert.asp  
