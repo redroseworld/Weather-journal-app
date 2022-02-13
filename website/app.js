@@ -134,12 +134,12 @@ function weatherApp() {
         // define the data which come from server side and transform it into json
         const allWeatherData = await request.json();
         //  updated values to reflect dynamically to the app
-        cityUpdate.innerHTML = ` ${allWeatherData[0].city}`
-        dateUpdate.innerHTML = ` ${allWeatherData[0].date}`
-        tempUpdate.innerHTML = ` ${Math.round(allWeatherData[0].temp)}&#8451`
-        iconUpdate.innerHTML = `<img src = http://openweathermap.org/img/wn/${allWeatherData[0].icon}@2x.png>`
-        feelingsUpdate.innerHTML = `I feel: ${allWeatherData[0].userfeelings}`
-        weatherUpdate.innerHTML = `It's ${allWeatherData[0].weather}`
+        cityUpdate.innerHTML = ` ${allWeatherData.city}`
+        dateUpdate.innerHTML = ` ${allWeatherData.date}`
+        tempUpdate.innerHTML = ` ${Math.round(allWeatherData.temp)}&#8451`
+        iconUpdate.innerHTML = `<img src = http://openweathermap.org/img/wn/${allWeatherData.icon}@2x.png>`
+        feelingsUpdate.innerHTML = `I feel: ${allWeatherData.userfeelings}`
+        weatherUpdate.innerHTML = `It's ${allWeatherData.weather}`
     }
     //button for reload the page to empty the app and reuse 
     empty.addEventListener('click', emptyApp);
