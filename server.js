@@ -1,5 +1,5 @@
 // Setup empty JS object (array) to act as endpoint for all routes
-projectData = [];
+projectData = {};
 
 //store required packages to run server and routes inside object requierdPack
 const requiredPack ={
@@ -51,5 +51,5 @@ function postAll(req, res) {
         userfeelings: req.body.userfeelings,
         weather: req.body.weather
     }
-    projectData.splice(0,0,newData);
+    projectData = newData;
 }
